@@ -1,6 +1,1 @@
-- hosts: all
-  become: yes
-  tasks:
-    - name: build image from docker file
-      shell: ansible-playbook /ansible/u01/project_1.yml -i /ansible/u01/data/host
 
