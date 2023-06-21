@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN echo "this is test file after date update final test 1" > /tmp/testfile1
+RUN echo "this is test file after date update final test 2" > /tmp/testfile1
