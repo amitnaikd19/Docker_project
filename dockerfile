@@ -6,5 +6,5 @@ WORKDIR /var/www/html
 RUN unzip hightech.zip
 RUN cp -rvf hightech-html/* .
 RUN rm -rf hightech.zip hightech-html
-CMD ["/usr/sbin/httpd,"D"."FOREGROUND"}
+CMD ["/usr/sbin/httpd,"D","FOREGROUND"}
 EXPOSE 80
